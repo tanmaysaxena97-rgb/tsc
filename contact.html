@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | TS Consultants</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo"><i data-lucide="layers" class="text-accent"></i> TS Consultants</a>
+            <nav class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="about.html" class="nav-link">Process</a>
+                <a href="portfolio.html" class="nav-link">Portfolio</a>
+                <a href="contact.html" class="btn btn-primary" style="padding: 0.5rem 1rem;">Book a Call</a>
+            </nav>
+            <button class="mobile-menu-btn"><i data-lucide="menu"></i></button>
+        </div>
+    </header>
+
+    <div style="padding-top: 100px;"></div>
+
+    <section class="section bg-gray" style="min-height: calc(100vh - 100px);">
+        <div class="container fade-up">
+            <div class="grid grid-2 gap-8 bg-white p-8 rounded-lg shadow-xl" style="padding: 3rem; border-radius: 1.5rem; box-shadow: var(--shadow-xl); border: 1px solid var(--color-border); max-width: 1000px; margin: 0 auto;">
+                <div>
+                    <h2 class="mb-4">Let’s build something meaningful together.</h2>
+                    <p class="text-muted mb-6">Book a consultation with TS Consultants to start growing your business with structured, hands-on execution.</p>
+                    
+                    <div class="mb-6">
+                        <h4 class="mb-2">Prefer to book directly?</h4>
+                        <a href="https://calendly.com/" target="_blank" class="btn btn-secondary">
+                            <i data-lucide="calendar"></i> Schedule via Calendly
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <form>
+                        <div class="grid grid-2 gap-4">
+                            <div class="form-group mb-0">
+                                <label class="form-label" for="name">Name</label>
+                                <input type="text" id="name" class="form-control" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group mb-0">
+                                <label class="form-label" for="email">Email</label>
+                                <input type="email" id="email" class="form-control" placeholder="john@company.com" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group mt-4">
+                            <label class="form-label" for="company">Company</label>
+                            <input type="text" id="company" class="form-control" placeholder="Your Company Ltd">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label" for="service">Service Needed</label>
+                            <select id="service" class="form-control">
+                                <option value="">Select a service...</option>
+                                <option value="marketing">Marketing & Growth</option>
+                                <option value="seo">SEO & Organic Growth</option>
+                                <option value="web">Web Development</option>
+                                <option value="sales">Sales Support</option>
+                                <option value="hiring">Hiring & HR</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label" for="message">Message</label>
+                            <textarea id="message" class="form-control" placeholder="Tell us about your goals..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">
+                            Schedule a Consultation
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container text-center text-muted">
+            <p>&copy; 2026 TS Consultants. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

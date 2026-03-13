@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | TS Consultants</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo"><i data-lucide="layers" class="text-accent"></i> TS Consultants</a>
+            <nav class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="about.html" class="nav-link">Process</a>
+                <a href="portfolio.html" class="nav-link active">Portfolio</a>
+                <a href="contact.html" class="btn btn-primary" style="padding: 0.5rem 1rem;">Book a Call</a>
+            </nav>
+            <button class="mobile-menu-btn"><i data-lucide="menu"></i></button>
+        </div>
+    </header>
+
+    <div style="padding-top: 100px;"></div>
+
+    <section class="section bg-gray">
+        <div class="container fade-up">
+            <div class="section-header">
+                <span class="section-label">Recent Projects</span>
+                <h2>Sample Work</h2>
+                <p class="text-muted">A look into how we've helped other growing companies.</p>
+            </div>
+            
+            <div class="grid grid-3">
+                <div class="portfolio-card">
+                    <img src="assets/portfolio_healthcare.png" alt="Healthcare Website" class="portfolio-img">
+                    <div class="portfolio-content">
+                        <span class="portfolio-tag">Web Development</span>
+                        <h3>Healthcare Clinic Website</h3>
+                        <p class="text-muted mt-2" style="font-size: 0.9rem;">Designed and developed a high-converting website for a premium healthcare clinic.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card">
+                    <img src="assets/portfolio_marketing.png" alt="Marketing Strategy" class="portfolio-img">
+                    <div class="portfolio-content">
+                        <span class="portfolio-tag">Marketing</span>
+                        <h3>Startup Marketing Strategy</h3>
+                        <p class="text-muted mt-2" style="font-size: 0.9rem;">Built a robust analytics dashboard and execution plan to acquire 10k users.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card">
+                    <img src="assets/portfolio_sales.png" alt="Sales System" class="portfolio-img">
+                    <div class="portfolio-content">
+                        <span class="portfolio-tag">Sales Setup</span>
+                        <h3>System Implementation</h3>
+                        <p class="text-muted mt-2" style="font-size: 0.9rem;">Implemented a scalable CRM system to track and optimize lead generation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to action simple -->
+    <section class="section bg-white text-center">
+        <div class="container fade-up">
+            <h2 class="mb-4">Want to see these results for your business?</h2>
+            <a href="contact.html" class="btn btn-primary btn-lg mt-4">Let's Discuss Execution</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container text-center text-muted">
+            <p>&copy; 2026 TS Consultants. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
